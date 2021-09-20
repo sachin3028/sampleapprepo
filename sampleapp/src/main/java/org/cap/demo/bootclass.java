@@ -8,11 +8,12 @@ public class bootclass {
 
 	}
    public static void show() {
-	   int[] arr= {12,36,56,56};
-	   for(int i=0;i<100;i++)
-	   {
-		   System.out.println(arr[i]);
+	   int[] arr= {1,2,3,4,5};
+	   int sum=0;
+	   for(int n:arr) {
+		   sum+=n;
+		   System.out.println(n);
 	   }
 	   System.out.println("show method here");
-   }
+   
 }
