@@ -6,5 +6,7 @@ public class bootclass {
 		System.out.println("helloworld");
 
 	}
-
+   public static void show() {
+	   System.out.println("show method here");
+   }
 }
